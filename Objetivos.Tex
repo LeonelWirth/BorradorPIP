@@ -1,0 +1,22 @@
+\begin{titlepage}
+    {\LARGE Objetivos}
+
+  
+    El objetivo de este trabajo es el diseño, desarrollo e implementación del sistema de control de movimiento para un robot 4WD (Four-Wheel Drive) capaz de recibir valores de referencia de velocidad deseados (o setpoints) para cada rueda por un protocolo de comunicación y establecerlos.
+      
+    
+    Objetivos especificos:
+    \begin{itemize}
+        \item Caracterizar y modelar los cuatro sistemas (uno por cada rueda), compuesto por: motor, engranaje, rueda y encoder óptico.
+        \item Diseñar y sintonizar un lazo de control de velocidad para cada rueda del robot de manera independiente.
+        \item Utilizar un sistema operativo de tiempo real (RTOS) para la implementación de los cuatro lazos de control en un microcontrolador de la familia STM32. 
+        \item Establecer la estructura de los paquetes de datos y el protocolo de comunicación entre un dispositivo externo (maestro), que enviará los setpoints, y el sistema a diseñar (esclavo) que recibirá las órdenes. La comunicación será a través de una interfaz serie UART.
+        \item Realizar el control de versiones, y escribir la documentación, del código fuente del software desarrollado durante el proyecto.
+        \item Diseñar e implementar una placa (PCB) que integre todo el hardware utilizado para el funcionamiento del sistema de control.
+        \item Integrar todos los componentes anteriores sobre la plataforma móvil. El sistema resultante compuesto por: baterías, motores, encoders, sistema embebido e interfaz de comunicación es el sistema de control resultante. Realizar pruebas funcionales de todo el sistema.
+        \item Verificar, mediante pruebas con diferentes cargas, la respuesta del control de lazo cerrado de cada rueda.
+        \item Estimar el consumo energético del conjunto, evaluar e implementar las estrategias que correspondan para el uso de baterías de gel sobre el robot.
+        \item Realizar pruebas en campo del sistema integrado con trayectorias predefinidas (líneas rectas y giros).
+
+      \end{itemize}
+\end{titlepage}
