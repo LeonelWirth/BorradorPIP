@@ -1,0 +1,22 @@
+\begin{titlepage}
+    {\LARGE Desiciones}
+
+    
+    \begin{description}
+        \item[Evaluacion de implementar encoders en cuadratura:] 
+        Beneficios: implementar encoders de cuadratura nos brinda una resolucion en la medicion de velocidad.
+
+        Requisitos para implementarlo: se debe conseguir encoders en cuadratura, tras una breve investigacion , se nota que solo se consiguen encoders de este tipo con funcionamiento coaxial al eje de rotacion. 
+        Esto ultimo mencionado trae multiples desafios.
+        El primero es la ubicacion de los encoders en el robot, una posibilidad analizada es acoplarlo con el eje paralelo y un arreglo de poleas y correas.
+        El segundo es que para poder procesar 4 señales en cuadratura debemos cambiar el hardware principal por otro que tenga 4 modulos de cuadratura.
+
+        Dicho esto, combinando las problematicas mecanicas asociadas en alineacion y complegidad estructural para implementar estos cambios, en complemento con que se debe hacer una completa reestructuracion de hardware, incluyendo el PCB y software; se suma a que el precio estimado de implementacion ronda los 25 a 30 mil pesos al dia 12/12/2021.
+        Por esto se decide continuar con el encoder incremental que se posee actualmente.
+        Para no quedarnos sin mejoras se decide a diseñar e implementar un disco de encoder con una mayor cantidad de ranuras para asi aumentar la resolucion de medicion.
+
+        Falta agregar las tolerancias mecanicas de construccion.
+        \item[] 
+        \item[] 
+    \end{description}
+\end{titlepage}
