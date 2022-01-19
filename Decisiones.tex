@@ -29,6 +29,13 @@
         Posteriormente se evalua la fabricacion de los bujes necesarios, con un coste de 2000 pesos en materiales al mes de noviembre de 2021 y acceso a maquinaria pesada como torno y fresa, se decide implementar el cambio.
 
         El arreglo consistiria en fabricar nuevamente tanto bujes como ejes del vehiculo y realizar fijaciones con chavetas debido a las medidas no estandar que se poseen en las perforaciones del eje del motor.
-        
+
+        \item Metodo de identificacion del sistema:
+
+        Inicialmente se procede a obtener el modelo matematico guiados por el estado del arte y papers de referencia.
+        Inicialmente se opta por identificar el sistema, enviando una señal cuadrada de ciclo pseudoaleatorio con la herramienta MATLAB y devolverle al programa con el microcontrolador las mediciones de velocidad coorespondientes. Luego de esto, con este set de datos se busca estimar los paramtros del sistema (ya que conocemos como es la forma, variables y cantidad de polos y ceros) con herramientas propias de matlab.
+
+        Se busca posteriormente pasar el sistema en variables de estado y controlarlo de esta manera. debido a que sabiamos el orden de algunos de los parametros del sistema por que los podiamos medir, observamos que la convergencia del algoritmo de matlab, nos daba un set de parametros valido, pero varios ordenes de magnitud mayores o menores a los valores que esperabamos. Por esto ultimo, y por el gran esfuerzo mecanico que le generaba la señal cuadrada pseudoaleatoria al sistema se opto por realizar los ensayos de los parametros de manera manual sin ayuda de matlab.
+
     \end{itemize}
 
