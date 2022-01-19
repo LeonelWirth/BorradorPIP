@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.4)  19 JAN 2022 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.4)  19 JAN 2022 19:04
 entering extended mode
 **l:/Repositorios/BorradorPIP/Borrador_Tesis.tex
 (l:/Repositorios/BorradorPIP/Borrador_Tesis.tex
@@ -250,16 +250,15 @@ Package pdftex.def Info: img/LogoUNCO.png  used on input line 9.
 \openout2 = `Resumen.aux'.
 
  (Resumen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
 <img/FotoDePresentacion.jpg, id=14, 4015.0pt x 3011.25pt>
 File: img/FotoDePresentacion.jpg Graphic file (type jpg)
 <use img/FotoDePresentacion.jpg>
-Package pdftex.def Info: img/FotoDePresentacion.jpg  used on input line 3.
+Package pdftex.def Info: img/FotoDePresentacion.jpg  used on input line 9.
 (pdftex.def)             Requested size: 401.52353pt x 301.14264pt.
-
-Overfull \hbox (111.20337pt too wide) in paragraph at lines 1--4
-[]\OT1/cmr/m/n/17.28 Resumen \OT1/cmr/m/n/10 Aca va el Re-su-men [] 
- []
-
 ) [3
 
 
@@ -290,17 +289,17 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (l:/Repositorios\BorradorPIP\build\Indice.aux) (l:/Repositorios\BorradorPIP\build\Resumen.aux) (l:/Repositorios\BorradorPIP\build\Objetivos.aux) (l:/Repositorios\BorradorPIP\build\Decisiones.aux) (l:/Repositorios\BorradorPIP\build\Ensayos.aux)) ) 
 Here is how much of TeX's memory you used:
- 4073 strings out of 480236
- 57264 string characters out of 2881509
+ 4079 strings out of 480236
+ 57342 string characters out of 2881509
  354361 words of memory out of 3000000
- 20563 multiletter control sequences out of 15000+200000
+ 20569 multiletter control sequences out of 15000+200000
  536652 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,6n,66p,646b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Leo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Leo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Leo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on l:/Repositorios\BorradorPIP\build\Borrador_Tesis.pdf (6 pages, 1092210 bytes).
+<C:/Users/Leo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Leo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Leo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Leo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on l:/Repositorios\BorradorPIP\build\Borrador_Tesis.pdf (6 pages, 1101752 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
